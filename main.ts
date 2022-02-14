@@ -1,1 +1,13 @@
-
+basic.forever(function () {
+    music.rest(music.beat(BeatFraction.Whole))
+    music.playTone(330, music.beat(BeatFraction.Half))
+    music.playTone(330, music.beat(BeatFraction.Half))
+    music.playTone(330, music.beat(BeatFraction.Whole))
+    music.playTone(440, music.beat(BeatFraction.Half))
+    music.playTone(494, music.beat(BeatFraction.Half))
+    music.playTone(523, music.beat(BeatFraction.Half))
+    music.playTone(523, music.beat(BeatFraction.Half))
+    music.playTone(494, music.beat(BeatFraction.Half))
+    music.playTone(440, music.beat(BeatFraction.Whole))
+    music.playTone(262, music.beat(BeatFraction.Whole))
+})
